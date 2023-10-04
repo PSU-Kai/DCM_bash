@@ -7,7 +7,7 @@ SESSION_NAME="DERMS"
 SCRIPT_DIR="/home/pi/water_heaters_testings/dcs/build/debug"
 
 # Command to execute the Python script
-PYTHON_SCRIPT="python3 new_log_extract_1.py"
+PYTHON_SCRIPT="python3 dcm_log_data.py"
 
 # Check if the session exists
 tmux has-session -t "$SESSION_NAME" 2>/dev/null
